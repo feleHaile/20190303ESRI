@@ -8,7 +8,7 @@ def main():
 # three ways to get to a worksheet:
 
     # 1
-    print(wb.get_sheet_names(), '\n')
+    print(wb.sheetnames, '\n')
     ws = wb['US Presidents']
     print(ws, '\n')
 

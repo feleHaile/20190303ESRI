@@ -16,6 +16,7 @@ def update_last_names(ws):
         cell = row[0]
         cell.value = cell.value.upper()
         cell.font = px.styles.Font(color='FF0000FF')
+        cell.fill = px.styles.PatternFill(start_color="22001100", fill_type='solid')
 
 if __name__ == '__main__':
     main()
