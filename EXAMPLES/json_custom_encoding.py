@@ -4,7 +4,7 @@ import json
 from datetime import date
 
 
-class Parrot():  # <1>
+class Parrot:  # <1>
     def __init__(self, name, color):
         self._name = name
         self._color = color
@@ -25,7 +25,7 @@ parrots = [  # <3>
 ]
 
 
-def encode(obj):  # <4>
+def serialize(obj):  # <4>
     if isinstance(obj, date):  # <5>
         return obj.ctime()  # <6>
     elif isinstance(obj, Parrot):  # <7>
@@ -40,4 +40,4 @@ data = {  # <10>
     'parrots': parrots,
 }
 
-print(json.dumps(data, default=encode, indent=4))  # <11>
+print(json.dumps(data, default=serialize, indent=4))  # <11>
