@@ -8,7 +8,7 @@ from email.mime.image import MIMEImage # <3>
 SMTP_SERVER = "smtpcorp.com"
 SMTP_PORT = 2525
 SMTP_USER = 'pythonclass'
-SMTP_PWD = 'Gu1d0V@nR0ssum'
+SMTP_PWD = 'Gr3@t$tud3nt'
 
 SENDER = 'jstrick@mindspring.com'
 RECIPIENTS = ['jstrickler@gmail.com']

@@ -26,7 +26,7 @@ with paramiko.SSHClient() as ssh:  # <9>
         print(err)
         exit()
 
-    stdin, stdout, stderr = ssh.exec_command('ls -l {}'.format(REMOTE_DIR))
+    stdin, stdout, stderr = ssh.exec_command(r'C:\Program Files\...\notepad.exe'.format(REMOTE_DIR))
     print(stdout.read().decode())
     print('-' * 60)
 

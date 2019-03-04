@@ -4,9 +4,9 @@ import smtplib  # <1>
 DEBUG = True  # set to false for production
 
 smtp_user = 'pythonclass'
-smtp_pwd = 'Gu1d0V@nR0ssum'
+smtp_pwd = 'Gr3@t$tud3nt' #''Gu1d0V@nR0ssum'
 
-sender = 'jstrick@mindspring.com'
+sender = 'bozo@circus.com'
 recipients = ['jstrickler@gmail.com']
 msg = '''Subject: SMTP example
 Hello hello?
