@@ -22,3 +22,11 @@ print('vstack((a,a[0] + a[1])) =>\n', np.vstack((a, a[0] + a[1])))  # <4>
 print()
 
 print('hstack((a,b)) =>\n', np.hstack((a, b)))  # <5>
+
+def times_three(x):
+    return x * 3
+
+print(a)
+print()
+print(times_three(a))
+

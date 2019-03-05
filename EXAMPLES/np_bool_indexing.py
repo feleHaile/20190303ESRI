@@ -20,9 +20,16 @@ print('a[a > 50] =>', a[a > 50], '\n')  # <4>
 
 print('a[i].min(), a[i].max() =>', a[i].min(), a[i].max(), '\n')  # <5>
 
+x = np.where(a > 50) # [[row indices], [col indices]]
+
+print("x is", x)
+
+
 a[i] = 0  # <6>
 print('a =>', a, '\n')
+
 
 print("a[a < 15] += 10")
 a[a < 15] += 10  # <7>
 print(a, '\n')
+
