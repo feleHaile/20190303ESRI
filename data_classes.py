@@ -2,7 +2,7 @@
 from dataclasses import dataclass, field
 from datetime import date
 
-@dataclass(frozen=True)
+@dataclass # (frozen=True)
 class President():
 
     first_name: str
@@ -20,4 +20,4 @@ print(type(p))
 
 p.first_name = 'Fred'
 
-
+print(p)
